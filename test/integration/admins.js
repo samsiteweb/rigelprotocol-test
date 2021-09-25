@@ -1,5 +1,5 @@
-const AdministratorStorage = artifacts.require('AdminStorage')
-const AdministratorController = artifacts.require('AdminController')
+const AdministratorStorage = artifacts.require('AdministratorStorage')
+const AdministratorController = artifacts.require('AdministratorController')
 
 contract('Admin Storage', () => {
 

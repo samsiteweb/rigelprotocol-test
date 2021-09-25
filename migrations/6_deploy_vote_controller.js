@@ -1,5 +1,5 @@
 const VoteController = artifacts.require('VoteController')
-const VoteStorage = artifacts.require('AdminStorage');
+const VoteStorage = artifacts.require('AdministratorStorage');
 const ContractManager = artifacts.require('ContractManager')
 
 module.exports = (deployer) => {

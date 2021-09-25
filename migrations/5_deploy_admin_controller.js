@@ -1,5 +1,5 @@
-const AdministratorController = artifacts.require('AdminController')
-const AdministratorStorage = artifacts.require('AdminStorage');
+const AdministratorController = artifacts.require('AdministratorController')
+const AdministratorStorage = artifacts.require('AdministratorStorage');
 const ContractManager = artifacts.require('ContractManager')
 
 module.exports = function(deployer) {
