@@ -1,12 +1,13 @@
-const AdminStorage = artifacts.require('AdminStorage')
+const AdministratorStorage = artifacts.require('AdminStorage')
+const AdministratorController = artifacts.require('AdminController')
 
 contract('Admin Storage', () => {
 
-    it("can Add an Admin", async () => {
-        const storage = await AdminStorage.deployed()
+    it("can Add an Admin with controller", async () => {
+        const controller = await AdministratorController.deployed()
 
         const adminName = web3.utils.fromAscii("Lawal")
-        const tx = await storage.addAdmin(adminName)
+        const tx = await controller.createAdmin(adminName)
 
         assert.isOk(tx)
     })

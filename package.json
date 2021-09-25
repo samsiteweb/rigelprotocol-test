@@ -1,0 +1,26 @@
+{
+  "name": "code-test-election-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samsiteweb/rigelprotocol-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samsiteweb/rigelprotocol-test/issues"
+  },
+  "homepage": "https://github.com/samsiteweb/rigelprotocol-test#readme",
+  "dependencies": {
+    "truffle-contract": "^4.0.31",
+    "web3": "^1.5.3"
+  }
+}
